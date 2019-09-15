@@ -45,7 +45,7 @@ nltk.download('wordnet')
 
 
 def load_data():
-    data = pd.read_csv('C:/Users/aksha/Downloads/train111.csv',encoding='latin-1')
+    data = pd.read_csv('C:/twitter/train111.csv',encoding='latin-1')
     return data
 
 
