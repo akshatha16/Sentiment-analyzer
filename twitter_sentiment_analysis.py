@@ -68,7 +68,7 @@ print('Columns are:',tweet_df.columns)
 
 tweet_df.info()
 sns.countplot(x = 'Sentiment', data = tweet_df)
-
+#visualization
 
 # In[115]:
 
@@ -168,8 +168,6 @@ df.head()
 countVectorizer = CountVectorizer(analyzer=clean_text) 
 countVector = countVectorizer.fit_transform(df['Tweet_lemmatized'])
 print('{} Number of tweets has {} words'.format(countVector.shape[0], countVector.shape[1]))
-#print(countVectorizer.get_feature_names())
-
 
 # In[124]:
 
